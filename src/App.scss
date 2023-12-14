@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+
+body {
+  background-color: #E7DAD5;
+}
+
+h1 {
+  color: #443C38 ;
+  font-family: 'Ms Madi';
+  font-size: 60px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
