@@ -1,0 +1,30 @@
+@import "../../assets/style-utils/variables.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    width: 100%;
+    background-color: $light-second-color;
+
+    & ul {
+        display: flex;
+
+        & li {
+            padding: 5px;
+            color: $light-main-color ;
+
+            & a {
+                color: $light-main-color ;
+            }
+
+            &:hover {
+               a, a:visited , a:active , a:focus{
+                    color: $light-third-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

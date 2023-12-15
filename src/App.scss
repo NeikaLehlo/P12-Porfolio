@@ -1,11 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@200;400;500;700;900&display=swap");
+@import "./assets/style-utils/reset.scss";
+@import "./assets/style-utils/variables.scss";
+
+* {
+  font-family:"Raleway";
+}
 
 body {
-  background-color: #E7DAD5;
+  background-color: $light-main-color;
+  // display:flex;
+  // flex-direction: column;
+  // align-items: center;
 }
 
 h1 {
-  color: #443C38 ;
+  color: $light-main-color ;
   font-family: 'Ms Madi';
   font-size: 60px;
 }
@@ -13,5 +22,6 @@ h1 {
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  align-items: center;
+  min-height: 100%;
 }

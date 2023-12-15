@@ -2,6 +2,12 @@ import "./about.scss"
 
 export function About() {
     return (
-        <div>Salut, je m'appelle Chloé, aka Neika, j'ai 33 ans. Après avoir exploré différentes facettes de la vie pendant les dix dernières années, je suis de retour dans le domaine qui a toujours été une passion pour moi: l'informatique en tant que développeuse front-end !  </div>
+        
+        <div id="about">
+            <img src="../src/assets/images/colibri2.jpg"></img>
+            <p>
+                Salut, je m'appelle Chloé, aka Neika. Suite à une reconversion me voila développeuse web ! Je suis curieuse et j'aime apprendre. J'ai une préférence pour React et sa logique par composant.
+            </p>
+        </div>        
     )
 }
