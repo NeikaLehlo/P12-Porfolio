@@ -16,7 +16,7 @@ export function ProjectCard({title, img, desc, linkgithub, link}) {
         <div className="project">
             <div className="project-card" onClick={openModal}>
                 <h3>{title}</h3>
-                <img src={img} alt="project's picture"></img>    
+                <img src={img} alt="image du projet"></img>    
             </div>
 
             {(isOpen) && (
@@ -27,7 +27,7 @@ export function ProjectCard({title, img, desc, linkgithub, link}) {
                             {/* <img className="modal-close" src="./src/assets/icons/close.png" alt="close"></img> */}
                         {/* </div> */}
                         <div className="modal-project-text">
-                            <img src={img} alt="project's picture"></img>
+                            <img src={img} alt="image du projet"></img>
                             <div className="modal-project-text-desc">
                                 <p>{desc}</p>
                                 <div className="modal-project-text-desc-links">

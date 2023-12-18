@@ -1,0 +1,17 @@
+@import "../../assets/style-utils/variables.scss";
+
+.skill{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & img{
+        height: 75px;
+    }
+
+    & p{
+        color: $light-main-color;
+    }
+
+}

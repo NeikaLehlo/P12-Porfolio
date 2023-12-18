@@ -8,14 +8,21 @@
     gap: 20px;
     max-width: 1200px;
 
-
-    & img {
-        width: 100%;
-        border-radius: 40%;
-        filter: drop-shadow(0px 30px 15px rgba(0, 0, 0, 0.7));
+    &-desc{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     & p {
         font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
+.pfp {
+        width: 100%;
+        border-radius: 40%;
+        filter: drop-shadow(0px 30px 15px rgba(0, 0, 0, 0.7));
+    }
