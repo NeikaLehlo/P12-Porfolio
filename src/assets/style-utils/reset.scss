@@ -1,3 +1,4 @@
+@import "../../assets/style-utils/variables.scss";
 //RESET
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -75,6 +76,6 @@ th {
 }
 
 a, a:visited , a:active , a:focus{
-  color: black;
+  color: $light-third-color;
   text-decoration: none;
 }

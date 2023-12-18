@@ -1,0 +1,14 @@
+@import "../../assets/style-utils/variables.scss";
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10%;
+    margin: 30px 0;
+  }
+
+h2.projects-title{
+  color:$light-second-color;
+  font-size: 50px;
+}

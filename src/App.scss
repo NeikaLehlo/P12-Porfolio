@@ -13,7 +13,7 @@ body {
   // align-items: center;
 }
 
-h1 {
+h1, h2 ,h3{
   color: $light-main-color ;
   font-family: 'Ms Madi';
   font-size: 60px;
@@ -24,4 +24,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   min-height: 100%;
+}
+
+.red{
+  color:$light-third-color;
 }
