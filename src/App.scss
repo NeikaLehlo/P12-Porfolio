@@ -17,6 +17,10 @@ h1, h2 ,h3{
   color: $light-main-color ;
   font-family: 'Ms Madi';
   font-size: 60px;
+
+  @media (max-width: 800px) {
+    font-size: 40px;
+}
 }
 
 #root {

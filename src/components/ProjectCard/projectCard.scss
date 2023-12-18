@@ -3,6 +3,9 @@
 .project{
     width: 40%;
     position: relative;
+    @media (max-width: 800px) {
+        width:60%
+    }
 
     &-card{
         display: flex;
@@ -27,6 +30,7 @@
         & img{
             border-radius: 5px;
             width: 100%;
+            max-width:500px;
             
         }
     }
@@ -67,6 +71,7 @@
 
             & img{
                 width: 100%;
+                max-width:500px;
             }
 
             &-desc{

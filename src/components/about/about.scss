@@ -8,6 +8,10 @@
     gap: 20px;
     max-width: 1200px;
 
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+
     &-desc{
         display:flex;
         flex-direction: column;
@@ -25,4 +29,8 @@
         width: 100%;
         border-radius: 40%;
         filter: drop-shadow(0px 30px 15px rgba(0, 0, 0, 0.7));
+
+        @media (max-width: 800px) {
+            width: 50%;
+        }
     }
