@@ -12,7 +12,7 @@ export function About() {
                 </p>
                 <a href="https://github.com/NeikaLehlo" target="_blank">
                 <Skill
-                    img="../src/assets/icons/github.png"
+                    img="/assets/icons/github.png"
                 />
                 </a>
             </div>
