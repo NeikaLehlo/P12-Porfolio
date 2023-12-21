@@ -20,4 +20,13 @@
     & h2{
         font-size: 30px;
     }
+
+    & a{
+        text-decoration: underline;
+        color: $light-main-color;
+
+        &:hover{
+            color:$light-third-color;
+        }
+    }
 }

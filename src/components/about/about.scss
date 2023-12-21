@@ -12,19 +12,23 @@
         flex-direction: column;
     }
 
-    &-desc{
+    
+
+    & p {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $light-second-color;
+    }
+}
+
+.about-desc{
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    & p {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-}
 .pfp {
         width: 50%;
         border-radius: 40%;
