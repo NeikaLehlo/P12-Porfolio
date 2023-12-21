@@ -16,7 +16,7 @@ export function Projects() {
                 <ProjectCard 
                     title="Projet Sophie Bluel" 
                     img="/assets/images/sophie-bluel.png" 
-                    desc="Dans le cadre d'une simulation pour ma formation, j'ai contribué en tant que développeur front-end au projet de conception du site portfolio pour une architecte d'intérieur. En utilisant HTML, CSS, JavaScript, et Swagger pour le back-end, j'ai créé la page de présentation des travaux de l'architecte à partir du HTML fourni, développé la page de connexion de l'administrateur de zéro, et mis en place une modale d'upload de nouveaux médias." 
+                    desc="Dans le cadre d'une simulation pour ma formation, j'ai contribué en tant que développeur front-end au projet de conception du site portfolio pour une architecte d'intérieur. En utilisant HTML, CSS, JavaScript, et Swagger pour les routes API, j'ai créé la page de présentation des travaux de l'architecte à partir du HTML fourni, développé la page de connexion de l'administrateur de zéro, et mis en place une modale d'upload de nouveaux travaux." 
                     linkgithub="https://github.com/NeikaLehlo/P6-Portfolio_Sophie_Bluel"
                 />
                 <ProjectCard 
